@@ -77,12 +77,12 @@ scene.background = SkyboxTexture;
 }
 function manualSkyBox() {
 
-var texture0 = new THREE.TextureLoader().load( 'textures/mayhem2/flame_rt.jpg' );
+var texture0 = new THREE.TextureLoader().load( 'textures/mayhem2/flame_bk.jpg' );
 var texture1 = new THREE.TextureLoader().load( 'textures/mayhem2/flame_lf.jpg' );
 var texture2 = new THREE.TextureLoader().load( 'textures/mayhem2/flame_up.jpg' );
 var texture3 = new THREE.TextureLoader().load( 'textures/mayhem2/flame_dn.jpg' );
-var texture4 = new THREE.TextureLoader().load( 'textures/mayhem2/flame_ft.jpg' );
-var texture5 = new THREE.TextureLoader().load( 'textures/mayhem2/flame_bk.jpg' );
+var texture4 = new THREE.TextureLoader().load( 'textures/mayhem2/flame_rt.jpg' );
+var texture5 = new THREE.TextureLoader().load( 'textures/mayhem2/flame_ft.jpg' );
 var materials = [
     new THREE.MeshBasicMaterial( { map: texture0, side: THREE.BackSide } ),
     new THREE.MeshBasicMaterial( { map: texture1, side: THREE.BackSide } ),
